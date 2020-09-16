@@ -5,7 +5,7 @@ import os
 import inspect
 import re
 import math
-from numpy.random import randint
+from random import randint
 from session8 import *
 
 
@@ -132,7 +132,7 @@ def test_func_count_with_dict_outer():
     dict_1 = dict()
     fc = func_count_with_dict_outer(dict_1)
 
-    a, b, c, d = randint(1, 10, 4)
+    a, b, c = randint(1, 10),randint(1, 10),randint(1, 10)
 
     for i in range(a):
         fc(add, 2, 5)
@@ -148,7 +148,7 @@ def test_func_count_with_dict_outer():
     dict_2 = dict()
     fc_new = func_count_with_dict_outer(dict_2)
 
-    a, b, c, d = randint(1, 10, 4)
+    a, b, c = randint(1, 10),randint(1, 10),randint(1, 10)
 
     for i in range(a):
         fc_new(add, 2, 5)

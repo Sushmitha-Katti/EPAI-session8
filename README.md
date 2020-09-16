@@ -113,9 +113,7 @@ def func_counter() -> "Function":
 ```
 
 ### **func_count_with_dict_outer**
-Function to implement closure, encapsulates a function
-    that keeps tracks of how many times a particular function
-    has been called. It updates a dictionary given in the input
+Function to implement closure, encapsulates a function that keeps tracks of how many times a particular function has been called. It updates a dictionary given in the input
 
 ```python
 def func_count_with_dict_outer(count_dict : dict) -> "Function":
