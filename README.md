@@ -71,11 +71,7 @@ def fibonacci() -> "Function":
 
 ### **func_counter**
 
-    Function to implement closure, encapsulates a function
-    that keeps tracks of how many times a particular function
-    has been called. It updates a global list with count, and
-    also mantains a free variable list so as to not let user 
-    alter the count.
+Function to implement closure, encapsulates a function that keeps tracks of how many times a particular function has been called. It updates a global list with count, and also mantains a free variable list so as to not let user alter the count.
 
 ```python
 def func_counter() -> "Function":
